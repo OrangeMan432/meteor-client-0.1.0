@@ -1,0 +1,37 @@
+{
+  "required": true,
+  "package": "minegame159.meteorclient.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+  ],
+  "client": [
+    "MinecraftClientMixin",
+    "InGameHudMixin",
+    "KeyboardMixin",
+    "ChatHudMixin",
+    "ClientPlayerEntityMixin",
+    "ClientPlayNetworkHandlerMixin",
+    "LivingEntityMixin",
+    "ClientWorldMixin",
+    "BlockMixin",
+    "BackgroundRendererMixin",
+    "GameRendererMixin",
+    "KeyBindingMixin",
+    "SignEditScreenMixin",
+    "DisconnectedScreenMixin",
+    "AbstractButtonWidgetMixin",
+    "ClientConnectionMixin",
+    "ShulkerBoxBlockMixin",
+    "MultiplayerScreenMixin",
+    "MouseMixin",
+    "ChunkOcclusionDataBuilderMixin",
+    "CameraMixin",
+    "TitleScreenMixin",
+    "EntityMixin",
+    "PlayerMoveC2SPacketMixin",
+    "Vec3dMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
